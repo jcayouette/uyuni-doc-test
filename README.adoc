@@ -15,7 +15,7 @@
 
 This is the playbook project for the Uyuni prototype site.
 
-To generate the demo site using this playbook project and the demo documentation components, you'll need to {uri-docs-install}[install the Antora CLI and default site generator].
+To generate the prototype Uyuni documentation site using this playbook project and the demo documentation components, you'll need to {uri-docs-install}[install the Antora CLI and default site generator].
 
 == Playbook
 
