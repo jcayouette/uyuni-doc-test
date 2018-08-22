@@ -19,7 +19,6 @@ To generate the demo site using this playbook project and the demo documentation
 
 == Playbook
 
-Copied from Antora README:
 An {uri-docs-playbook}[Antora playbook] is responsible for generating a documentation site.
 It contains the instructions a user wants to relay to an Antora site generator pipeline.
 These instructions include the content Antora should collect and the UI it should apply to the generated site.
