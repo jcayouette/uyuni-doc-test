@@ -8,6 +8,7 @@
 //** xref:lists/unordered-list.adoc[Unordered List]
 * xref:book_mgr_getting_started.adoc[Getting Started]
 ** xref:quickstart3_chap_install_overview.adoc[Overview and Requirements]
+*** xref:quickstart.sect.introduction[Introduction]
 ** xref:quickstart3_chap_suma_installation_jeos.adoc[Installation via JeOS]
 ** xref:quickstart3_chap_suma_installation_sles.adoc[Installation via SLES]
 ** xref:quickstart3_chap_suma_setup_with_yast.adoc[Setup and Configuration]
