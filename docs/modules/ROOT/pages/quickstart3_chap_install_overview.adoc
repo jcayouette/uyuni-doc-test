@@ -1,6 +1,5 @@
 [[quickstart.chapt.overview.requirements]]
 = Introduction
-ifdef::env-github,backend-docbook5[]
 //Admonitions
 //:tip-caption: :bulb:
 //:note-caption: :information_source:
@@ -33,8 +32,6 @@ ifdef::env-github,backend-docbook5[]
 :sle: SUSE Linux Enterprise
 :slsa: SLES
 :suse: SUSE
-
-endif::[]
 //Asciidoctor Front Matter
 :doctype: book
 :sectnums:
@@ -193,8 +190,9 @@ Using a Proxy When Installing from {sle} Media:: If you are on an internal netwo
 For more information about configuring a proxy for access to {scc} during a {sle} installation, see https://www.suse.com/documentation/sled-12/singlehtml/book_sle_deployment/book_sle_deployment.html#sec.i.yast2.start.parameters.proxy[SUSE Linux Enterprise Server Documentation -  Using a Proxy During Installation]
 
 
-.Naming Your Server
+
 [IMPORTANT]
+.Naming Your Server
 ====
 The hostname of {productname} must not contain uppercase letters as this may cause _jabberd_ to fail.
 Choose the hostname of your {productname} server carefully.
