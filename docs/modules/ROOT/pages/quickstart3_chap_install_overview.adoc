@@ -23,7 +23,7 @@
 :susemgrproxy: {productname} Proxy
 :productnumber: 3.2
 //SUSE, SLES and JeOS
-:productname:
+:productname: Uyuni
 :sles-version: 12
 :sp-version: SP3
 :jeos: JeOS
@@ -49,13 +49,9 @@ You will learn the fundamentals of managing both traditional and Salt clients.
 
 This guide is intended for system administrators.
 
-ifdef::env-github,backend-html5[]
-<<common_version_info.adoc#common-version-info, Version Info>>
-endif::[]
-
-ifndef::env-github[]
 include::common_version_info.adoc[leveloffset=1]
-endif::[]
+
+
 
 [[quickstart.sect.introduction]]
 == Introduction to {productname}
