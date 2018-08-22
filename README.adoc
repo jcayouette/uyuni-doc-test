@@ -31,6 +31,7 @@ It tells Antora where to find the Component A and Component B remote content rep
 Once you've installed Antora and {uri-demo-playbook}[saved the demo playbook] ([.path]_site.yml_) to a local directory, you're ready to {uri-docs-run}[run Antora].
 
 == Copyright and License
+This project is built on the hard work and efforts from OpenDevise Inc. This readme was copied and modified for use as a temporary placeholder.
 
 Copyright (C) 2017-2018 OpenDevise Inc. and individual Antora Project contributors.
 
