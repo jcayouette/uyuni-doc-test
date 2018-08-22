@@ -1,0 +1,6 @@
+name: uyuni
+title: Uyuni
+version: '4.0 - develop'
+start_page: ROOT:MAIN-manager.adoc
+nav:
+  - modules/ROOT/nav.adoc
