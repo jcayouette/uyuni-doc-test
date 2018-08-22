@@ -1,4 +1,3 @@
-
 :linkattrs:
 // SUSE ENTITIES FOR GITHUB
 // System Architecture
@@ -17,7 +16,7 @@
 :saltversion: 2018.3.0
 :webui: WebUI
 // SUSE Product Entities
-:productname:
+:productname: Uyuni
 :sles-version: 12
 :sp-version: SP3
 :jeos: JeOS
