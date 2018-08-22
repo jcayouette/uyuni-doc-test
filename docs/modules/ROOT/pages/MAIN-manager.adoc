@@ -2,6 +2,7 @@
 :imagesdir: ./images
 
 Testing repo data... SUCCESS!
+
 // For the github environment we use cross references. These are only used with gh-pages, jekyll and browsing via github.
 ifdef::env-github,backend-html5[]
 <<book_mgr_getting_started.adoc#getting-started, SUSE Manager Getting Started>>
