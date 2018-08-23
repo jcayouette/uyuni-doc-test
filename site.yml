@@ -1,0 +1,12 @@
+site:
+  title: Uyuni Documentation (Prototype)
+  start_page: uyuni::MAIN-manager
+content:
+  sources:
+  - url: https://github.com/jcayouette/uyuni-doc-test.git
+    branches: [master, maintenance/3.2 ]
+    start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
