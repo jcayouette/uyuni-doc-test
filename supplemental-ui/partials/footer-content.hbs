@@ -1,0 +1,20 @@
+<footer class="footer">
+  <p>Copyright (C) 2017-2018 <a href="https://jcayouette.github.io/personal-blog">Belief and Reason</a></p>
+  <p>Except where otherwise noted, jcayouette.github.io/personal-blog, BoR, are licensed under the <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License Version 2.0</a> (MPL-2.0).</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<!-- fetched from https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js -->
+<script>
+function focusSearchInput () { document.querySelector('#search-input').focus() }
+var search = docsearch({
+  appId: '#',
+  apiKey: '#',
+  indexName: '#',
+  inputSelector: '#search-input',
+  autocompleteOptions: { hint: false, keyboardShortcuts: ['s'] },
+  algoliaOptions: { hitsPerPage: 10 }
+}).autocomplete
+search.on('autocomplete:closed', function () { search.autocomplete.setVal() })
+focusSearchInput()
+window.addEventListener('load', focusSearchInput)
+</script>
